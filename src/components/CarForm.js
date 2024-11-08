@@ -9,7 +9,6 @@ const CarForm = () =>{
             cost: state.form.cost
         }
     });
-
     const handleNameChange = (e) =>{
         dispatch(changeName(e.target.value))
     }
